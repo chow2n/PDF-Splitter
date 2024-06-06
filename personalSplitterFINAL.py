@@ -1,7 +1,7 @@
 from PyPDF2 import PdfReader, PdfWriter
 import os
 
-source = r"D:\Asurity\Asurity_Raw_Samples\Asurity_Sample_Docs\_TempFolder\Chris"
+source = r"___________"
 
 def split_PDF (path, start_page: int = 0, stop_page: int = 0):
     with open (path, "rb") as f:
